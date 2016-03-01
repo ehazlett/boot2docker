@@ -1,0 +1,4 @@
+#!/bin/sh
+for img in $(ls /data); do
+    docker load < /data/$img
+done
